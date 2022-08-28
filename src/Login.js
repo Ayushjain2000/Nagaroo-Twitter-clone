@@ -15,11 +15,15 @@ function Login({setUser})
 }  
    return(
         <div className="login">
-            <img class="mainImg" alt="noimg"src="https://www.danoneinstitute.org/wp-content/uploads/2020/06/logo-rond-twitter.png"/>
-            <h1>Login</h1>
-            <Button  className="button" onClick={signIn} >
-                <GoogleIcon/> Sign in with Google
-            </Button>
+            <img class="mainImg" alt="noimg"src="https://www.bworldonline.com/wp-content/uploads/2021/07/Twitter-768x683.jpg"/>
+            <div className="login-btn">
+                <h1>Login</h1>
+                <pre> 
+                <Button  className="button" onClick={signIn} >
+                    <GoogleIcon /> Sign in with Google
+                </Button>
+                </pre>
+            </div>
         </div>
    )
 }
