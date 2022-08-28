@@ -18,17 +18,17 @@ function Widgets() {
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
 
-        <TwitterTweetEmbed tweetId={"1561762855174541312"} />
+        <TwitterTweetEmbed tweetId={"1562865781930528770"} />
 
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="Aman"
+          screenName="imVkohli"
           options={{ height: 400 }}
         />
 
         <TwitterShareButton
           url={"https://facebook.com/"}
-          options={{ text: "#Twitter Clone", via: "Aman" }}
+          options={{ text: "#Twitter Clone", via: "Ayush" }}
         />
       </div>
     </div>
